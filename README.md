@@ -59,18 +59,18 @@ The following steps were performed in the analysis:
    - **Statistical Summary**: Generating summary statistics (mean, median, standard deviation) for each feature.
    - **Distribution Plots**: Visualizing distributions of variables such as glucose, BMI, and age to understand their behavior.
    
-   ![Glucose Distribution]("E:\Projects\Diabities Prediction\photos\Distribution of Glucose Levels.jpg")
+   ![Glucose Distribution](images/glucose_distribution.jpg)
 
 4. **Feature Correlation Analysis**:
    - Analyzing relationships between features, particularly focusing on factors like glucose and BMI, which are highly correlated with diabetes outcomes.
    - Calculating correlation coefficients to identify features with stronger predictive power.
    
-   ![BMI vs. Age with Outcome Hue](images/bmi_age_scatter.png)
-   ![Feature Correlation Heatmap](images/feature_correlation_heatmap.png)
+   ![BMI vs. Age with Outcome Hue](images/bmi_age_scatter.jpg)
+   ![Feature Correlation Heatmap](images/feature_correlation_heatmap.jpg)
 
 5. **Data Overview**:
    
-   ![Data Overview](images/)
+   ![Data Overview](images/data_overview.jpg)
 
 ## Results
 
