@@ -58,12 +58,19 @@ The following steps were performed in the analysis:
 3. **Exploratory Data Analysis (EDA)**:
    - **Statistical Summary**: Generating summary statistics (mean, median, standard deviation) for each feature.
    - **Distribution Plots**: Visualizing distributions of variables such as glucose, BMI, and age to understand their behavior.
+   
+   ![Glucose Distribution]("E:\Projects\Diabities Prediction\photos\Distribution of Glucose Levels.jpg")
+
 4. **Feature Correlation Analysis**:
    - Analyzing relationships between features, particularly focusing on factors like glucose and BMI, which are highly correlated with diabetes outcomes.
    - Calculating correlation coefficients to identify features with stronger predictive power.
-5. **Visualization**:
-   - Plotting histograms, scatter plots, and correlation heatmaps to visually interpret data patterns.
-   - Visualizations provided insights into feature importance, such as the influence of glucose levels and BMI on diabetes likelihood.
+   
+   ![BMI vs. Age with Outcome Hue](images/bmi_age_scatter.png)
+   ![Feature Correlation Heatmap](images/feature_correlation_heatmap.png)
+
+5. **Data Overview**:
+   
+   ![Data Overview](images/)
 
 ## Results
 
@@ -75,3 +82,8 @@ After completing the data analysis process, several insights were gained:
 
 These insights serve as a valuable foundation for future predictive modeling efforts, allowing us to focus on the most significant features when building machine learning models.
 
+---
+
+### Notes
+
+Make sure each image filename matches what you use in the markdown. If you'd like me to generate and save these images as files, please let me know!
